@@ -1,0 +1,43 @@
+.grid-container {
+  grid-template-areas:
+    "photo"
+    "data";
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr 2fr;
+  margin: 0rem 1.5rem;
+  padding: 9rem 0rem;
+}
+.photo {
+  background-image: url("images/image-header-mobile.jpg");
+  width: 100%;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0;
+}
+/* data card */
+.data {
+  padding: 2rem 2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+.achievements {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.achievements p {
+  margin-right: 0;
+}
+/* utility classes */
+.font-primary {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.font {
+  line-height: 1.6;
+  font-size: 1.37rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+}

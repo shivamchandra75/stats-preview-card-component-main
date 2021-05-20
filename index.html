@@ -15,6 +15,11 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:600px)"
+      href="phone.css"
+    />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
@@ -27,11 +32,13 @@
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
-        <p class="font-primary num">10k+ 314 12M+</p>
-        <p class="font val">companies templates queries</p>
+        <div class="achievements">
+          <p class="font"><span>10k+</span>COMPANIES</p>
+          <p class="font"><span>314</span>TEMPLATES</p>
+          <p class="font"><span>12M+</span>QUERIES</p>
+        </div>
       </div>
       <div class="photo"></div>
-      <!-- <img src="images/image-header-desktop.jpg" alt="image" class="photo" /> -->
     </div>
 
     <div class="attribution">

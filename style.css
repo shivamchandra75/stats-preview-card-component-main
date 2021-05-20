@@ -1,5 +1,5 @@
 html {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 * {
@@ -76,20 +76,16 @@ body {
   font-size: 1rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-
-.num {
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin-bottom: 0;
-  word-spacing: 5.6rem;
-  margin-top: 5rem;
+.achievements {
+  display: flex;
 }
-
-.val {
-  margin-top: 0;
-  word-spacing: 4.7rem;
-  text-transform: uppercase;
-  font-size: 00.8rem;
-  margin-bottom: 1rem;
-  color: hsla(0, 0%, 100%, 0.6);
+.font span {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  display: block;
+  font-weight: 700;
+}
+.achievements p {
+  margin-right: 4.5rem;
 }
