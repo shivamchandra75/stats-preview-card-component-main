@@ -29,6 +29,10 @@
 .achievements p {
   margin-right: 0;
 }
+
+.margin {
+  margin-bottom: 1rem;
+}
 /* utility classes */
 .font-primary {
   text-align: center;
@@ -40,4 +44,7 @@
   font-size: 1.37rem;
   color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
+}
+.font span {
+  font-size: 2.5rem;
 }
