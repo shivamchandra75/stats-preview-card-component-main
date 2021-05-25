@@ -14,7 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/used-grid-and-flexbox-Zn9wfffUR)
 - Live Site URL: [Add live site URL here](https://shivamchandra75.github.io/stats-preview-card-component-main/)
 
 ## My process
