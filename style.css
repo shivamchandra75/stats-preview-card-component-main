@@ -45,6 +45,21 @@ body {
   background-size: cover;
 }
 
+.achievements {
+  display: flex;
+}
+.font span {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  display: block;
+  font-weight: 700;
+}
+
+.achievements p {
+  margin-right: 4.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -76,19 +91,28 @@ body {
   font-size: 1rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.achievements {
-  display: flex;
-}
-.font span {
-  font-family: "Inter", sans-serif;
-  color: white;
-  font-size: 1.3rem;
-  display: block;
-  font-weight: 700;
-}
-.achievements p {
-  margin-right: 4.5rem;
-}
 .margin {
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1190px) {
+  .achievements p {
+    margin-right: 2.8rem;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .achievements p {
+    font-size: 0.85rem;
+    margin-right: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .achievements p {
+    font-size: 0.65rem;
+    margin-right: 1.9rem;
+  }
+  .data {
+    padding-left: 2rem;
+  }
 }
