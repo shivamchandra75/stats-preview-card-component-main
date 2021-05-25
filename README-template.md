@@ -4,9 +4,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -17,7 +15,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://shivamchandra75.github.io/stats-preview-card-component-main/)
 
 ## My process
 
@@ -56,5 +54,5 @@ css grid would be the property that i am curently struggling with and will conti
 
 ## Author
 
-- Website - [Shivam Chandra](https://www.your-site.com)
+- Website - [Shivam Chandra](https://shivamchandra75.github.io/stats-preview-card-component-main/)
 - Frontend Mentor - [@shivamchandra75](https://www.frontendmentor.io/profile/shivamchandra75)
